@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {    
+    background-color: rgb(62,48,99);
+}
+.content-fluir {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+@media (max-width: 600px) {
+    .centraliza {
+        position: relative;
+        width: 300px;
+        margin: 100px auto;
+    }
+}
+@media (min-width: 600px) {
+    .centraliza {
+        position: relative;
+        width: 600px;
+        margin: 100px auto;
+    }
+}
+.formulario {
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+}
+input {
+    border-radius: 20px;
+    border-color: white;
+    border-style: solid;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    outline: 0;
+}
+.inputUser {
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+}
+.inputSenha {
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+}
+.botao{
+    margin-top: 30px;
+    height: 70px;
+    width: 300px;
+    border-radius: 30px;
+    border-color: transparent;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    background-image: linear-gradient(to right, rgb(246, 83, 102), rgb(200, 66, 181));
+}
+.enviar {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+.cadastre {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.cadastre:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+p {
+    display: block;
+    float: none;
+    line-height: 32px;
+    font: inherit;
+    text-shadow: none;
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+}
+h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 28px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+h2 {
+    line-height: 46px;
+    font-size: 26px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+/* ELEMENTOS DO MENU */
+.nav-logo {
+    background-color: rgb(62,48,99) !important;
+    box-shadow: 5px 5px 5px black;
+    -webkit-box-shadow: 0px 8px 14px -9px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px 8px 14px -9px rgba(0,0,0,0.64);
+    box-shadow: 0px 8px 14px -9px rgba(0,0,0,0.64);
+}
+
+/* ELEMENTOS DO PRIMEIRO CONTAINER */
+.first-container h1 {
+    color: white;
+    text-shadow: 0px 1px 0px rgba(51, 51, 51, 0.5);
+}
+.first-container p {
+    margin: 20px 40px 50px 40px;
+    color: white;
+    background: rgb(62,48,99);
+    text-align: justify;
+}
+.first-container img {
+    margin: 80px auto;
+}
+.first-container {
+    background-color: rgb(62,48,99);
+}
+
+
+/* ELEMENTOS DO SEGUNDO CONTAINER */
+.second-container {
+    background-color:rgb(62,48,99);
+    margin-top: 0;
+}
+.second-container-content h2 {
+    text-align: center;
+    width: 40%;
+    float: left;
+    color: white;
+}
+.space {
+    margin-top: 50px;
+}
+.second-container-content p {
+    margin: 80px 40px 50px 40px;
+    color: white;
+    background-color: rgb(62,48,99);
+    text-align: center;
+    width: 80%;
+}
+.second-container-content #last-p {
+    margin: 80px 40px 76px 40px;
+}
+.second-container-content a {
+    display: block;
+    text-align: center;
+    background-color: #e74c3c;
+    color: #fff;
+    font: inherit;
+    padding: 15px;
+    margin: 0px 30%;
+    text-decoration:none; 
+}
+.second-container-content a:hover {
+    transition-duration: 0.3s;
+    background-color: rgba(231,76,60, 0.7);
+    text-decoration:none; 
+}
+.line-left {
+    width: 30%;
+    float: left;
+    height: 5px;
+    background-color: rgba(250, 250, 250, 0.118);
+    margin: 20px 0 0 0;
+}
+.line-right {
+    width: 30%;
+    float: right;
+    height: 5px;
+    background-color: rgba(250, 250, 250, 0.118);
+    margin: 20px 0 0 0;
+}
+
+
+
+/* ELEMENTOS DO QUARTO CONTAINER */
+.fourth-container-content {
+    text-align: center;
+}
+.fourth-container-content a {
+    display: block;
+    text-align: center;
+    background-color: #e74c3c;
+    color: #fff;
+    font: inherit;
+    padding: 15px;
+    margin: 0px 30%;
+    text-decoration:none; 
+}
+.fourth-container-content a:hover {
+    transition-duration: 0.3s;
+    background-color: rgba(231,76,60, 0.7);
+    text-decoration:none; 
+}
+.fourth-container .form-control {
+    background-color: transparent;
+    width: 60%;
+    border-radius: 0;
+    border: 1px solid #e74c3c;
+    float: left;
+    text-decoration:none; 
+    font: inherit;
+    color: white;
+    margin-left: 10%;
+}
+.fourth-container .btn {
+    border-radius: 0;
+    float: right;
+    text-decoration:none; 
+    font: inherit;
+    margin-right: 10%;
+    background-color: #e74c3c;
+    color: #fff;
+}
+.fourth-container .btn:hover {
+    transition-duration: 0.3s;
+    background-color: rgba(231,76,60, 0.7);
+}
+.fourth-container .form-control:focus {
+    box-shadow: 0 0 0 0;
+    border: 1px solid #e74c3c;
+    outline: 0;
+} 
+
+
+/* FOOTER */
+.footer-logo {
+    background-color: rgb(62,48,99) !important;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVIDADE */
+@media(min-width: 980px) {
+    .carousel {
+        width: 980px;
+        margin: 0 auto;
+        height: 350px;
+    }
+    .first-container-content {
+        width: 980px;
+        margin: 0 auto;
+    }
+    .first-container p {
+        margin: 20px 40px 50px 40px;
+    }
+    .first-container img {
+        width: 100%;
+    }
+
+    .second-container-content {
+        width: 980px;
+        margin: 20px auto 60px auto;
+    }
+    .fourth-container-content {
+        width: 980px;
+        margin: 10px auto 60px auto;
+    }
+    #navbarNav {
+        width: 980px;
+        margin: 0 auto;
+    }
+    .p-footer p {
+        position: relative;
+        bottom: -24px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        display: inline-block;
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 980px) {
+    .carousel {
+        width: 100%;
+        margin: 0 auto;
+        height: 350px;
+    }
+    .first-container-content {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .first-container p {
+        margin: 0 auto;
+    }
+    .first-container img {
+        width: 100%;
+        margin: 15px auto;
+    }
+    .second-container-content {
+        width: 100%;
+        margin: 30px auto 60px auto;
+    }
+    .fourth-container-content {
+        width: 100%;
+        margin: 10px auto 60px auto;
+    }
+    #navbarNav {
+        display: none;
+    }
+    .p-footer {
+        display: none;
+    }
+    #img-causas {
+        display: none;
+    }
+    h1 {
+        text-shadow: none !important;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+a, li {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+.nav ul {
+	max-width: 980px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+.nav li span {
+	display: block;
+}
+
+.nav a {
+	display: block;
+	color: rgba(1, 1, 1, .9);
+	text-decoration: none;
+	-webkit-transition: color .5s, background .5s, height .5s;
+	-moz-transition: color .5s, background .5s, height .5s;
+	-o-transition: color .5s, background .5s, height .5s;
+	-ms-transition: color .5s, background .5s, height .5s;
+    transition: color .5s, background .5s, height .5s;
+    font: inherit;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+
+a, button {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+.no-touch .nav ul:hover a {
+	color: rgba(0, 0, 0, .5);
+}
+
+.no-touch .nav ul:hover a:hover {
+	color: rgba(0, 0, 0, 0.99);
+}
+
+
+
+/* The "tablet" and "mobile" version */
+@media (min-width: 980px) {
+	.nav {
+		display: none;
+	}
+	.rate1, .rate2, .rate3 {
+        position: relative;
+        left: -70px;
+        height: 46px;
+    }
+}
+
+
+/* Styling the toggle menu link and hiding it */
+.nav .navtoogle{
+	display: none;	
+	width: 100%;
+	padding: 0.5em 0.5em 0.8em;
+	font-weight: normal;
+	text-align: left;
+	background: none;	
+	border: none;
+	border-bottom: 4px solid rgb(221, 221, 221);
+    cursor: pointer;
+    font: inherit;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: lighter;
+    
+}
+
+
+@media (max-width: 980px) {
+
+    .rate1, .rate2, .rate3 {
+        position: relative;
+        left: -130px;
+        height: 46px;
+    }
+	/* Unhiding the styled menu link */
+	.nav .navtoogle{
+		margin: 0;
+		display: block;
+	}
+	
+	/* Animating the height of the navigation when the button is clicked */
+	
+	/* When JavaScript is disabled, we hide the menu */
+	.no-js .nav ul {
+		max-height: 20em;
+		overflow: hidden;
+	}
+	
+	/* When JavaScript is enabled, we hide the menu */
+	.js .nav ul {
+		max-height: 0em;
+		overflow: hidden;
+	}
+	
+	/* Displaying the menu when the user has clicked on the button*/
+	.js .nav .active + ul {		
+		max-height: 20em;
+		overflow: hidden;
+		-webkit-transition: max-height .4s;
+		-moz-transition: max-height .4s;
+		-o-transition: max-height .4s;
+		-ms-transition: max-height .4s;
+		transition: max-height .4s;
+	}
+
+	/* Adapting the layout of the menu for smaller screens : icon on the left and text on the right*/
+	
+	.nav li span {
+		display: inline-block;
+		height: 70%;
+	}
+
+	.nav a {
+		padding: 0.5em;		
+	}
+	.touch .nav a {
+		padding: 0.3em;
+	}
+}
+
+
+
+
+
+
+
+
+
+.rate1:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate1:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate1:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate1 > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate1:not(:checked) > label:hover,
+.rate1:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate1 > input:checked + label:hover,
+.rate1 > input:checked + label:hover ~ label,
+.rate1 > input:checked ~ label:hover,
+.rate1 > input:checked ~ label:hover ~ label,
+.rate1 > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+.rate2:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate2:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate2:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate2 > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate2:not(:checked) > label:hover,
+.rate2:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate2 > input:checked + label:hover,
+.rate2 > input:checked + label:hover ~ label,
+.rate2 > input:checked ~ label:hover,
+.rate2 > input:checked ~ label:hover ~ label,
+.rate2 > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.rate3:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate3:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate3:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate3 > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate3:not(:checked) > label:hover,
+.rate3:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate3 > input:checked + label:hover,
+.rate3 > input:checked + label:hover ~ label,
+.rate3 > input:checked ~ label:hover,
+.rate3 > input:checked ~ label:hover ~ label,
+.rate3 > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
